@@ -1,6 +1,7 @@
 # configurar_nginx_mac
 Configuraciones de virtual host nginx en mac
 
+<code>
 server {
     listen 80;
     listen 443 ssl;
@@ -46,3 +47,4 @@ server {
     ssl_certificate     /etc/nginx/ssl/max.test.crt;
     ssl_certificate_key /etc/nginx/ssl/max.test.key;
 }
+</code>
